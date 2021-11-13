@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    width: 100%;
+
+}
+.conteiner{
+    width: 100%;
+    max-width: 1200px;
+}
+.top_1{
+    width: 100%;
+    height: 100%;
+    background: rgb(31, 235, 99);
+}
+.top_1 > ul{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.top_1 ul li{
+    display: inline-block;
+    background: rgb(0, 192, 32);
+}
+.top_1 a{
+    text-decoration: none;
+    color: rgb(6, 0, 92);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    line-height: 60px;
+    width: 172px;
+    transition: all .3s;
+}
+.top_1 a:hover{
+    color: rgb(47, 255, 175);
+    background: rgb(0, 117, 29);
+}
+.top_1 ul ul {
+    display: none;
+    position: absolute;
+
+}
+.top_1 ul li:hover > ul{
+    display: flex;
+    flex-direction: column;
+}
+.top_1 ul ul li{
+    position: relative;
+}
+.top_1 ul ul ul li{
+    position: relative;
+    left: 172px;
+    bottom: 60px;
+}
+.top_2{
+    margin: 100px 0;
+    text-align:center;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.knopka{
+    margin-top: 30px;
+}
+.knopka a{
+    display: block;
+    width: 120px;
+    height: 50px;
+    padding-top: 13px;
+    text-decoration: none;
+    background: black;
+    color: rgb(0, 117, 29);
+    font-size: 20px;
+    transition: all .5s;
+}
+.knopka a:hover{
+    color: black;
+    background: rgb(0, 117, 29);
+}
